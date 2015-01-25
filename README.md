@@ -6,11 +6,13 @@ Tidy Datasets for Human Activity Recognition Using Smartphones | README
 This repository contains two tidy datasets extracted from the `Human Activity Recognition Using Smartphones Data Set` of the `UCI Machine Learning Repository` [(link)](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 The source data for this project can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-## What you find in this repository
+## What you will find in this repository
 
 * __CodeBook.md__: Information about the raw data and the code book for the two extracted tidy datasets
 * __README.md__: This file
 * __run_analysis.R__: R script to transform the raw data into the two tidy datasets
+* __first-dataset.txt__: First dataset in text format
+* __second-dataset.txt__: First dataset in text format
 
 ## Fine-tuning features extraction
 
@@ -18,10 +20,10 @@ The datasets extracted a small subset of features from the raw data.  Should you
 
 ## Descriptive feature names
 
-Feature variables have also been renamed to be more descriptive.  Should you need to alter how these features are renamed, please update the script's `extractFeature` function.
+Feature variables have also been renamed to be more descriptive.  Should you need to alter how these features are renamed, please update the script's `extractFeatureName` function.
 
 
-Both datasets were created using a subset feature set from the raw data.  Should you need to alter that list, feature selection is done in the script's `extractFeature` function.
+Both datasets were created using a subset feature set from the raw data.  Should you need to alter that list, feature selection is done in the script's `descriptiveFeatureName` function.
 
 
 ## Loading the tidy datasets
@@ -49,7 +51,7 @@ If, however, you need to extract different features, please refer to the documen
 1. Clone this repository or download its files into a new folder that we'll refer to as the root directory.
 1. Download the raw data (a `.zip` file) in the root directory and unzip it there.  The decompression tool will create a `UCI HAR Dataset` folder within the root directory.
 1. Open a `R` console and set this root as the working directory.
-1. Modify the `run_analysis.R` script and source it.  The script will load the dataset and create two new datasets in `text` format: `first-dataset.csv` and `second-dataset.csv` in the root directory.
+1. Modify the `run_analysis.R` script and source it.  The script will load the dataset and create two new datasets in `text` format: `first-dataset.txt` and `second-dataset.txt` in the root directory.
 
 ## Dependencies
 
