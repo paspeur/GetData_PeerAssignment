@@ -10,9 +10,9 @@ The source data for this project can be found [here](https://d396qusza40orc.clou
 
 * __CodeBook.md__: Information about the raw data and the code book for the two extracted tidy datasets
 * __README.md__: This file
-* __run_analysis.R__: R script to transform the raw data into the two tidy datasets
 * __first-dataset.txt__: First dataset in text format
-* __second-dataset.txt__: First dataset in text format
+* __second-dataset.txt__: Second dataset in text format
+* __run_analysis.R__: R script to transform the raw data into the two tidy datasets
 
 ## Fine-tuning features extraction
 
